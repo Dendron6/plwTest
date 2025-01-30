@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# MongoDB
+/databases/mongoDB/ 

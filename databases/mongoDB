@@ -1,0 +1,10 @@
+import pymongo
+from tests.config import get_mongo_url
+
+client = pymongo.MongoClient(get_mongo_url())
+
+
+
+db = client
+
+print(db)

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://the-internet.herokuapp.com/checkboxes -->
+<html class="no-js" lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="./The Internet_files/298279967.js.download"></script>
+    
+    <meta name="viewport" content="width=device-width">
+    <title>The Internet</title>
+    <link href="./The Internet_files/app.css" rel="stylesheet">
+    <link href="./The Internet_files/font-awesome.css" rel="stylesheet">
+    <script src="./The Internet_files/jquery-1.11.3.min.js.download"></script>
+    <script src="./The Internet_files/jquery-ui.js.download"></script>
+    <script src="./The Internet_files/foundation.js.download"></script><meta class="foundation-mq-small"><meta class="foundation-mq-medium"><meta class="foundation-mq-large"><style></style>
+    <script src="./The Internet_files/foundation.alerts.js.download"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </head>
+  <body>
+    <div class="row">
+      <div id="flash-messages" class="large-12 columns">
+      
+        
+      
+        
+      
+        
+      
+      </div>
+    </div>
+    <div class="row">
+      <a href="https://github.com/tourdedave/the-internet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="./The Internet_files/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+      <div id="content" class="large-12 columns">
+        <div class="example">
+  <h3>Checkboxes</h3>
+  <form id="checkboxes">
+    <input type="checkbox"> checkbox 1<br>
+    <input type="checkbox" checked=""> checkbox 2
+  </form>
+</div>
+<script>
+var form = document.getElementById('checkboxes');
+var checkboxes = form.getElementsByTagName('input');
+for (var i=0, len=checkboxes.length; i<len; i++) {
+    checkboxes[i].onclick = function() {
+      this.checked ? this.setAttribute("checked", "") : this.removeAttribute("checked");
+    }
+}
+</script>
+
+      </div>
+    </div>
+    <div id="page-footer" class="row">
+      <div class="large-4 large-centered columns">
+        <hr>
+        <div style="text-align: center;">Powered by <a target="_blank" href="http://elementalselenium.com/">Elemental Selenium</a></div>
+      </div>
+    </div>
+  
+
+</body></html>
