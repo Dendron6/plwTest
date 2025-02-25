@@ -1,0 +1,30 @@
+This configuration:
+- Makes all Playwright tests run in headed mode (visible browser) by default
+- Can be overridden via command line with `--headless`
+- Controls global pytest behavior without requiring code changes
+
+### conftest.py
+`conftest.py` is a special pytest file that provides fixtures and configuration that can be shared across multiple test files.
+
+Key features:
+- Contains shared fixtures (like browser setup, page objects)
+- Automatically discovered by pytest
+- Available to all test files without explicit imports
+- Perfect for:
+  - Browser initialization
+  - Common test data
+  - Shared helper functions
+  - Setup and teardown procedures
+
+### config.py
+`config.py` is a custom configuration file that stores project-specific settings and environment variables.
+
+Typically includes:
+- Environment URLs (dev, staging, prod)
+- API endpoints
+- Test data paths
+- Browser configurations
+- Database connection strings
+- Credentials (though these should be handled securely)
+
+## Project Structure

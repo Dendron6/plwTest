@@ -1,3 +1,4 @@
+# playwright show-trace tracing_logs/test_check_add_remove_elements[chromium]_20250224_163746
 from playwright.sync_api import Page
 
 class AddRemoveElementsPage:
