@@ -28,3 +28,17 @@ Typically includes:
 - Credentials (though these should be handled securely)
 
 ## Project Structure
+
+## Ruff
+
+Ruff is a modern Python code linter and formatter.
+
+the config is in pyproject.toml file
+
+ruff check '.\tests\test_soucedemo_how_to parametrize.py' - check particular file
+ruff check .
+ruff check . --fix - fix the issues
+
+### Installation
+
+

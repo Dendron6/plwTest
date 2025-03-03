@@ -1,1 +1,1 @@
-# Empty file to make tests directory a Python package 
+# Empty file to make tests directory a Python package

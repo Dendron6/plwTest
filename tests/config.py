@@ -45,5 +45,5 @@ def get_base_url() -> str:
 def get_mongo_url() -> str:
     if ENV not in Mongo_URLS:
         raise ValueError(f"Invalid environment: {ENV}. Must be one of: {', '.join(Mongo_URLS.keys())}")
-    return Mongo_URLS[ENV] 
+    return Mongo_URLS[ENV]
 

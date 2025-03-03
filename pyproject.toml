@@ -1,2 +1,6 @@
 [tool.pytest.ini_options]
 addopts = "--headed" 
+
+[tool.ruff]
+select = ["E", "W", "F", "B"]
+ignore = ["E501"]
